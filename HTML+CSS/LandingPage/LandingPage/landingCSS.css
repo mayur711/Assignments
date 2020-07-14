@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: brown;
+    line-height: 1.6;
+}
+
+#batman{
+    background-image: url('../LandingPage/batman.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#batman h1{
+    font-size: 50px;
+}
+
+#batman .button{
+    font-size: 18px;
+    color: brown;
+    border: brown 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#batman .button:hover{
+    background: brown;
+    color: burlywood;
+}
+
+#section-a{
+    padding: 20px;
+    background: brown;
+    color: burlywood;
+    text-align: center;
+}
+
+#section-b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#section-c{
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box1, #section-c .box3{
+    background: brown;
+    color: burlywood;
+}
+
+#section-c .box2{
+    background: #f4f4f4;
+}
